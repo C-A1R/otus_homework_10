@@ -1,0 +1,9 @@
+Architecture: amd64
+Description: join_server built using CMake
+Maintainer: example@example.com
+Package: join_server
+Priority: optional
+Section: devel
+Version: 0.0.1
+Installed-Size: 1805
+

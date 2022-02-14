@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -rdynamic CMakeFiles/join_server.dir/src/main.cpp.o CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.o CMakeFiles/join_server.dir/src/database.cpp.o CMakeFiles/join_server.dir/src/session.cpp.o CMakeFiles/join_server.dir/src/server.cpp.o -o join_server  -ldl 

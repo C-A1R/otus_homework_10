@@ -1,0 +1,18 @@
+OUTPUT_DIRECTORY       = /home/runner/work/otus_homework_10/otus_homework_10/
+INPUT                  = /home/runner/work/otus_homework_10/otus_homework_10/ 
+EXCLUDE                = /home/runner/work/otus_homework_10/otus_homework_10/src/sqlite/
+
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = join_server
+PROJECT_NUMBER         = 0.0.1
+PROJECT_BRIEF          = "Асинхронный сервер, выполняющий операции пересечения и симметрической разницы над множествами"
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = docs
+GENERATE_LATEX         = NO
+
+HAVE_DOT               = YES
+EXTRACT_ALL            = YES
+RECURSIVE              = YES
+
+EXTRACT_PRIVATE        = YES
