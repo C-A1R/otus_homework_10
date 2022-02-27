@@ -1,7 +1,7 @@
 #include "session.h"
 
-Session::Session(tcp::socket socket, std::shared_ptr<DataBase> db)
-    : _socket{std::move(socket)}, _db{db}
+Session::Session(tcp::socket socket, const std::shared_ptr<Storage> &stor)
+    : _socket{std::move(socket)}, _storage{stor}
 {
 }
 
@@ -45,19 +45,19 @@ std::string Session::execCmd(char *data, size_t lenght)
     }
     if (words.at(0) == "INSERT" && words.size() == 4)
     {
-        return _db->insert(words.at(1), std::vector<std::string>{words.at(2), words.at(3)});
+        return _storage->insert(words.at(1), stoi(words.at(2)), words.at(3));
     }
     else if (words.at(0) == "TRUNCATE" && words.size() == 2)
     {
-        return _db->truncate(words.at(1));
+        return _storage->truncate(words.at(1));
     }
     else if (words.at(0) == "INTERSECTION")
     {
-        return _db->intersection();
+        return _storage->intersection();
     }
     else if (words.at(0) == "SYMMETRIC_DIFFERENCE")
     {
-        return _db->symmetricDifference();
+        return _storage->symmetricDifference();
     }
     return "ERR unknown query\n";
 }
