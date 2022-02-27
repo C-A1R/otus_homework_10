@@ -1,10 +1,10 @@
-Start testing: Feb 14 22:52 UTC
+Start testing: Feb 27 17:37 UTC
 ----------------------------------------------------------
 1/2 Testing: test_Version
 1/2 Test: test_Version
 Command: "/home/runner/work/otus_homework_10/otus_homework_10/test_Version"
 Directory: /home/runner/work/otus_homework_10/otus_homework_10
-"test_Version" start time: Feb 14 22:52 UTC
+"test_Version" start time: Feb 27 17:37 UTC
 Output:
 ----------------------------------------------------------
 Running 1 test case...
@@ -15,27 +15,27 @@ Running 1 test case...
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"test_Version" end time: Feb 14 22:52 UTC
+"test_Version" end time: Feb 27 17:37 UTC
 "test_Version" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/2 Testing: test_Database
-2/2 Test: test_Database
-Command: "/home/runner/work/otus_homework_10/otus_homework_10/test_Database"
+2/2 Testing: test_Storage
+2/2 Test: test_Storage
+Command: "/home/runner/work/otus_homework_10/otus_homework_10/test_Storage"
 Directory: /home/runner/work/otus_homework_10/otus_homework_10
-"test_Database" start time: Feb 14 22:52 UTC
+"test_Storage" start time: Feb 27 17:37 UTC
 Output:
 ----------------------------------------------------------
-Running 4 test cases...
+Running 3 test cases...
 
 [1;32;49m*** No errors detected
 [0;39;49m
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"test_Database" end time: Feb 14 22:52 UTC
-"test_Database" time elapsed: 00:00:00
+"test_Storage" end time: Feb 27 17:37 UTC
+"test_Storage" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 14 22:52 UTC
+End testing: Feb 27 17:37 UTC

@@ -83,38 +83,24 @@ CMakeFiles/join_server.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/join_server.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/otus_homework_10/otus_homework_10/src/main.cpp -o CMakeFiles/join_server.dir/src/main.cpp.s
 
-CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.o: CMakeFiles/join_server.dir/flags.make
-CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.o: src/sqlite/sqlite3.c
-CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.o: CMakeFiles/join_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.o -MF CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.o.d -o CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.o -c /home/runner/work/otus_homework_10/otus_homework_10/src/sqlite/sqlite3.c
+CMakeFiles/join_server.dir/src/storage.cpp.o: CMakeFiles/join_server.dir/flags.make
+CMakeFiles/join_server.dir/src/storage.cpp.o: src/storage.cpp
+CMakeFiles/join_server.dir/src/storage.cpp.o: CMakeFiles/join_server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/join_server.dir/src/storage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/join_server.dir/src/storage.cpp.o -MF CMakeFiles/join_server.dir/src/storage.cpp.o.d -o CMakeFiles/join_server.dir/src/storage.cpp.o -c /home/runner/work/otus_homework_10/otus_homework_10/src/storage.cpp
 
-CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/work/otus_homework_10/otus_homework_10/src/sqlite/sqlite3.c > CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.i
+CMakeFiles/join_server.dir/src/storage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/join_server.dir/src/storage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/otus_homework_10/otus_homework_10/src/storage.cpp > CMakeFiles/join_server.dir/src/storage.cpp.i
 
-CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/work/otus_homework_10/otus_homework_10/src/sqlite/sqlite3.c -o CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.s
-
-CMakeFiles/join_server.dir/src/database.cpp.o: CMakeFiles/join_server.dir/flags.make
-CMakeFiles/join_server.dir/src/database.cpp.o: src/database.cpp
-CMakeFiles/join_server.dir/src/database.cpp.o: CMakeFiles/join_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/join_server.dir/src/database.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/join_server.dir/src/database.cpp.o -MF CMakeFiles/join_server.dir/src/database.cpp.o.d -o CMakeFiles/join_server.dir/src/database.cpp.o -c /home/runner/work/otus_homework_10/otus_homework_10/src/database.cpp
-
-CMakeFiles/join_server.dir/src/database.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/join_server.dir/src/database.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/otus_homework_10/otus_homework_10/src/database.cpp > CMakeFiles/join_server.dir/src/database.cpp.i
-
-CMakeFiles/join_server.dir/src/database.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/join_server.dir/src/database.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/otus_homework_10/otus_homework_10/src/database.cpp -o CMakeFiles/join_server.dir/src/database.cpp.s
+CMakeFiles/join_server.dir/src/storage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/join_server.dir/src/storage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/otus_homework_10/otus_homework_10/src/storage.cpp -o CMakeFiles/join_server.dir/src/storage.cpp.s
 
 CMakeFiles/join_server.dir/src/session.cpp.o: CMakeFiles/join_server.dir/flags.make
 CMakeFiles/join_server.dir/src/session.cpp.o: src/session.cpp
 CMakeFiles/join_server.dir/src/session.cpp.o: CMakeFiles/join_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/join_server.dir/src/session.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/join_server.dir/src/session.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/join_server.dir/src/session.cpp.o -MF CMakeFiles/join_server.dir/src/session.cpp.o.d -o CMakeFiles/join_server.dir/src/session.cpp.o -c /home/runner/work/otus_homework_10/otus_homework_10/src/session.cpp
 
 CMakeFiles/join_server.dir/src/session.cpp.i: cmake_force
@@ -128,7 +114,7 @@ CMakeFiles/join_server.dir/src/session.cpp.s: cmake_force
 CMakeFiles/join_server.dir/src/server.cpp.o: CMakeFiles/join_server.dir/flags.make
 CMakeFiles/join_server.dir/src/server.cpp.o: src/server.cpp
 CMakeFiles/join_server.dir/src/server.cpp.o: CMakeFiles/join_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/join_server.dir/src/server.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/join_server.dir/src/server.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/join_server.dir/src/server.cpp.o -MF CMakeFiles/join_server.dir/src/server.cpp.o.d -o CMakeFiles/join_server.dir/src/server.cpp.o -c /home/runner/work/otus_homework_10/otus_homework_10/src/server.cpp
 
 CMakeFiles/join_server.dir/src/server.cpp.i: cmake_force
@@ -142,8 +128,7 @@ CMakeFiles/join_server.dir/src/server.cpp.s: cmake_force
 # Object files for target join_server
 join_server_OBJECTS = \
 "CMakeFiles/join_server.dir/src/main.cpp.o" \
-"CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.o" \
-"CMakeFiles/join_server.dir/src/database.cpp.o" \
+"CMakeFiles/join_server.dir/src/storage.cpp.o" \
 "CMakeFiles/join_server.dir/src/session.cpp.o" \
 "CMakeFiles/join_server.dir/src/server.cpp.o"
 
@@ -151,13 +136,12 @@ join_server_OBJECTS = \
 join_server_EXTERNAL_OBJECTS =
 
 join_server: CMakeFiles/join_server.dir/src/main.cpp.o
-join_server: CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.o
-join_server: CMakeFiles/join_server.dir/src/database.cpp.o
+join_server: CMakeFiles/join_server.dir/src/storage.cpp.o
 join_server: CMakeFiles/join_server.dir/src/session.cpp.o
 join_server: CMakeFiles/join_server.dir/src/server.cpp.o
 join_server: CMakeFiles/join_server.dir/build.make
 join_server: CMakeFiles/join_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable join_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable join_server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/join_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

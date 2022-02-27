@@ -4,7 +4,7 @@ EXCLUDE                = /home/runner/work/otus_homework_10/otus_homework_10/src
 
 DOXYFILE_ENCODING      = UTF-8
 PROJECT_NAME           = join_server
-PROJECT_NUMBER         = 0.0.1
+PROJECT_NUMBER         = 0.0.2
 PROJECT_BRIEF          = "Асинхронный сервер, выполняющий операции пересечения и симметрической разницы над множествами"
 
 GENERATE_HTML          = YES

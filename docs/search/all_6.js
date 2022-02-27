@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hex_35',['HEX',['../CMakeCCompilerId_8c.html#a46d5d95daa1bef867bd0179594310ed5',1,'HEX():&#160;CMakeCCompilerId.c'],['../CMakeCXXCompilerId_8cpp.html#a46d5d95daa1bef867bd0179594310ed5',1,'HEX():&#160;CMakeCXXCompilerId.cpp']]]
+  ['getname_30',['getName',['../classStorage_1_1Table.html#a3ec27b7d1a331f8bc2f867aafcadbfef',1,'Storage::Table']]]
 ];

@@ -67,7 +67,7 @@ all: CMakeFiles/doc_doxygen.dir/all
 all: CMakeFiles/join_server.dir/all
 all: CMakeFiles/test_Version.dir/all
 all: CMakeFiles/version_lib.dir/all
-all: CMakeFiles/test_Database.dir/all
+all: CMakeFiles/test_Storage.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -79,7 +79,7 @@ clean: CMakeFiles/doc_doxygen.dir/clean
 clean: CMakeFiles/join_server.dir/clean
 clean: CMakeFiles/test_Version.dir/clean
 clean: CMakeFiles/version_lib.dir/clean
-clean: CMakeFiles/test_Database.dir/clean
+clean: CMakeFiles/test_Storage.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -115,12 +115,12 @@ CMakeFiles/doc_doxygen.dir/clean:
 CMakeFiles/join_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/join_server.dir/build.make CMakeFiles/join_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/join_server.dir/build.make CMakeFiles/join_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=2,3,4,5,6,7 "Built target join_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=2,3,4,5,6 "Built target join_server"
 .PHONY : CMakeFiles/join_server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/join_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/join_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles 0
 .PHONY : CMakeFiles/join_server.dir/rule
@@ -141,7 +141,7 @@ CMakeFiles/join_server.dir/clean:
 CMakeFiles/test_Version.dir/all: CMakeFiles/version_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Version.dir/build.make CMakeFiles/test_Version.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Version.dir/build.make CMakeFiles/test_Version.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=12,13 "Built target test_Version"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=10,11 "Built target test_Version"
 .PHONY : CMakeFiles/test_Version.dir/all
 
 # Build rule for subdir invocation for target.
@@ -167,7 +167,7 @@ CMakeFiles/test_Version.dir/clean:
 CMakeFiles/version_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/version_lib.dir/build.make CMakeFiles/version_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/version_lib.dir/build.make CMakeFiles/version_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=14,15 "Built target version_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=12,13 "Built target version_lib"
 .PHONY : CMakeFiles/version_lib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -187,30 +187,30 @@ CMakeFiles/version_lib.dir/clean:
 .PHONY : CMakeFiles/version_lib.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/test_Database.dir
+# Target rules for target CMakeFiles/test_Storage.dir
 
 # All Build rule for target.
-CMakeFiles/test_Database.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Database.dir/build.make CMakeFiles/test_Database.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Database.dir/build.make CMakeFiles/test_Database.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=8,9,10,11 "Built target test_Database"
-.PHONY : CMakeFiles/test_Database.dir/all
+CMakeFiles/test_Storage.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Storage.dir/build.make CMakeFiles/test_Storage.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Storage.dir/build.make CMakeFiles/test_Storage.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles --progress-num=7,8,9 "Built target test_Storage"
+.PHONY : CMakeFiles/test_Storage.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test_Database.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_Database.dir/all
+CMakeFiles/test_Storage.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_Storage.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles 0
-.PHONY : CMakeFiles/test_Database.dir/rule
+.PHONY : CMakeFiles/test_Storage.dir/rule
 
 # Convenience name for target.
-test_Database: CMakeFiles/test_Database.dir/rule
-.PHONY : test_Database
+test_Storage: CMakeFiles/test_Storage.dir/rule
+.PHONY : test_Storage
 
 # clean rule for target.
-CMakeFiles/test_Database.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Database.dir/build.make CMakeFiles/test_Database.dir/clean
-.PHONY : CMakeFiles/test_Database.dir/clean
+CMakeFiles/test_Storage.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Storage.dir/build.make CMakeFiles/test_Storage.dir/clean
+.PHONY : CMakeFiles/test_Storage.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

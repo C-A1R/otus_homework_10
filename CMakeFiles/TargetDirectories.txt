@@ -2,7 +2,7 @@
 /home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles/join_server.dir
 /home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles/test_Version.dir
 /home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles/version_lib.dir
-/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles/test_Database.dir
+/home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles/test_Storage.dir
 /home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles/package.dir
 /home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles/package_source.dir
 /home/runner/work/otus_homework_10/otus_homework_10/CMakeFiles/test.dir

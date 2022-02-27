@@ -1,10 +1,9 @@
 <map id="src/session.h" name="src/session.h">
-<area shape="rect" id="node1" title=" " alt="" coords="143,5,250,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="73,80,190,107"/>
-<area shape="rect" id="node3" href="$database_8h.html" title=" " alt="" coords="215,80,309,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,155,124,181"/>
-<area shape="rect" id="node5" title=" " alt="" coords="147,155,206,181"/>
-<area shape="rect" id="node6" title=" " alt="" coords="231,155,293,181"/>
-<area shape="rect" id="node7" title=" " alt="" coords="318,155,382,181"/>
-<area shape="rect" id="node8" title=" " alt="" coords="407,155,493,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="72,5,179,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,123,107"/>
+<area shape="rect" id="node3" href="$storage_8h.html" title=" " alt="" coords="147,80,229,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="41,155,92,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="116,155,175,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="199,155,263,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="287,155,329,181"/>
 </map>

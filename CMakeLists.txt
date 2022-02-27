@@ -33,8 +33,7 @@ configure_file(src/version/version.h.in version.h)
 
 set(SOURCE_FILES
     src/main.cpp
-    src/sqlite/sqlite3.c
-    src/database.cpp
+    src/storage.cpp
     src/session.cpp
     src/server.cpp
 )
@@ -43,15 +42,14 @@ add_executable(join_server ${SOURCE_FILES})
 
 add_executable(test_Version src/version/test_Version.cpp )
 add_library(version_lib src/version/versionLib.cpp)
-add_executable(test_Database 
-    src/test_Database.cpp 
-    src/database.cpp 
-    src/sqlite/sqlite3.c
+add_executable(test_Storage 
+    src/test_Storage.cpp 
+    src/storage.cpp 
 )
 
 set_target_properties(join_server 
     version_lib
-    test_Database
+    test_Storage
 PROPERTIES
     CXX_STANDARD 17
     CXX_STANDARD_REQUIRED ON
@@ -59,7 +57,7 @@ PROPERTIES
 target_include_directories(version_lib 
     PRIVATE ${CMAKE_BINARY_DIR}
 )
-set_target_properties(test_Version test_Database
+set_target_properties(test_Version test_Storage
 PROPERTIES
     COMPILE_DEFINITIONS BOOST_TEST_DYN_LINK
     INCLUDE_DIRECTORIES ${Boost_INCLUDE_DIR}
@@ -73,7 +71,7 @@ target_link_libraries(test_Version
     ${Boost_LIBRARIES}
     version_lib
 )
-target_link_libraries(test_Database
+target_link_libraries(test_Storage
     ${Boost_LIBRARIES}
     dl
 )
@@ -88,7 +86,7 @@ if (MSVC)
     target_compile_options(test_Version PRIVATE
         /W4
     )
-    target_compile_options(test_Database PRIVATE
+    target_compile_options(test_Storage PRIVATE
         /W4
     )
 else ()
@@ -101,7 +99,7 @@ else ()
     target_compile_options(test_Version PRIVATE
         -Wall -Wextra -pedantic -Werror
     )
-    target_compile_options(test_Database PRIVATE
+    target_compile_options(test_Storage PRIVATE
         -Wall -Wextra -pedantic -Werror
     )
 endif()
@@ -122,4 +120,4 @@ include(CPack)
 enable_testing()
 
 add_test(test_Version test_Version)
-add_test(test_Database test_Database)
+add_test(test_Storage test_Storage)

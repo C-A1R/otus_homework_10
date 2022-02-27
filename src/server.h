@@ -2,12 +2,12 @@
 #define SERVER_H
 
 #include "session.h"
-#include "database.h"
+#include "storage.h"
 
 class Server
 {
     tcp::acceptor _acceptor;
-    std::shared_ptr<DataBase> _db {nullptr};
+    std::shared_ptr<Storage> _storage;
 public:
     Server(boost::asio::io_context &io_context, short port);
 private:

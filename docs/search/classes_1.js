@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['server_80',['Server',['../classServer.html',1,'']]],
-  ['session_81',['Session',['../classSession.html',1,'']]]
+  ['table_83',['Table',['../classStorage_1_1Table.html',1,'Storage']]]
 ];

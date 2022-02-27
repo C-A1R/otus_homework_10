@@ -244,44 +244,17 @@ version_lib/fast:
 .PHONY : version_lib/fast
 
 #=============================================================================
-# Target rules for targets named test_Database
+# Target rules for targets named test_Storage
 
 # Build rule for target.
-test_Database: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_Database
-.PHONY : test_Database
+test_Storage: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_Storage
+.PHONY : test_Storage
 
 # fast build rule for target.
-test_Database/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Database.dir/build.make CMakeFiles/test_Database.dir/build
-.PHONY : test_Database/fast
-
-src/database.o: src/database.cpp.o
-.PHONY : src/database.o
-
-# target to build an object file
-src/database.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/join_server.dir/build.make CMakeFiles/join_server.dir/src/database.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Database.dir/build.make CMakeFiles/test_Database.dir/src/database.cpp.o
-.PHONY : src/database.cpp.o
-
-src/database.i: src/database.cpp.i
-.PHONY : src/database.i
-
-# target to preprocess a source file
-src/database.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/join_server.dir/build.make CMakeFiles/join_server.dir/src/database.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Database.dir/build.make CMakeFiles/test_Database.dir/src/database.cpp.i
-.PHONY : src/database.cpp.i
-
-src/database.s: src/database.cpp.s
-.PHONY : src/database.s
-
-# target to generate assembly for a file
-src/database.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/join_server.dir/build.make CMakeFiles/join_server.dir/src/database.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Database.dir/build.make CMakeFiles/test_Database.dir/src/database.cpp.s
-.PHONY : src/database.cpp.s
+test_Storage/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Storage.dir/build.make CMakeFiles/test_Storage.dir/build
+.PHONY : test_Storage/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -355,56 +328,56 @@ src/session.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/join_server.dir/build.make CMakeFiles/join_server.dir/src/session.cpp.s
 .PHONY : src/session.cpp.s
 
-src/sqlite/sqlite3.o: src/sqlite/sqlite3.c.o
-.PHONY : src/sqlite/sqlite3.o
+src/storage.o: src/storage.cpp.o
+.PHONY : src/storage.o
 
 # target to build an object file
-src/sqlite/sqlite3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/join_server.dir/build.make CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Database.dir/build.make CMakeFiles/test_Database.dir/src/sqlite/sqlite3.c.o
-.PHONY : src/sqlite/sqlite3.c.o
+src/storage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/join_server.dir/build.make CMakeFiles/join_server.dir/src/storage.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Storage.dir/build.make CMakeFiles/test_Storage.dir/src/storage.cpp.o
+.PHONY : src/storage.cpp.o
 
-src/sqlite/sqlite3.i: src/sqlite/sqlite3.c.i
-.PHONY : src/sqlite/sqlite3.i
+src/storage.i: src/storage.cpp.i
+.PHONY : src/storage.i
 
 # target to preprocess a source file
-src/sqlite/sqlite3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/join_server.dir/build.make CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Database.dir/build.make CMakeFiles/test_Database.dir/src/sqlite/sqlite3.c.i
-.PHONY : src/sqlite/sqlite3.c.i
+src/storage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/join_server.dir/build.make CMakeFiles/join_server.dir/src/storage.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Storage.dir/build.make CMakeFiles/test_Storage.dir/src/storage.cpp.i
+.PHONY : src/storage.cpp.i
 
-src/sqlite/sqlite3.s: src/sqlite/sqlite3.c.s
-.PHONY : src/sqlite/sqlite3.s
+src/storage.s: src/storage.cpp.s
+.PHONY : src/storage.s
 
 # target to generate assembly for a file
-src/sqlite/sqlite3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/join_server.dir/build.make CMakeFiles/join_server.dir/src/sqlite/sqlite3.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Database.dir/build.make CMakeFiles/test_Database.dir/src/sqlite/sqlite3.c.s
-.PHONY : src/sqlite/sqlite3.c.s
+src/storage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/join_server.dir/build.make CMakeFiles/join_server.dir/src/storage.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Storage.dir/build.make CMakeFiles/test_Storage.dir/src/storage.cpp.s
+.PHONY : src/storage.cpp.s
 
-src/test_Database.o: src/test_Database.cpp.o
-.PHONY : src/test_Database.o
+src/test_Storage.o: src/test_Storage.cpp.o
+.PHONY : src/test_Storage.o
 
 # target to build an object file
-src/test_Database.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Database.dir/build.make CMakeFiles/test_Database.dir/src/test_Database.cpp.o
-.PHONY : src/test_Database.cpp.o
+src/test_Storage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Storage.dir/build.make CMakeFiles/test_Storage.dir/src/test_Storage.cpp.o
+.PHONY : src/test_Storage.cpp.o
 
-src/test_Database.i: src/test_Database.cpp.i
-.PHONY : src/test_Database.i
+src/test_Storage.i: src/test_Storage.cpp.i
+.PHONY : src/test_Storage.i
 
 # target to preprocess a source file
-src/test_Database.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Database.dir/build.make CMakeFiles/test_Database.dir/src/test_Database.cpp.i
-.PHONY : src/test_Database.cpp.i
+src/test_Storage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Storage.dir/build.make CMakeFiles/test_Storage.dir/src/test_Storage.cpp.i
+.PHONY : src/test_Storage.cpp.i
 
-src/test_Database.s: src/test_Database.cpp.s
-.PHONY : src/test_Database.s
+src/test_Storage.s: src/test_Storage.cpp.s
+.PHONY : src/test_Storage.s
 
 # target to generate assembly for a file
-src/test_Database.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Database.dir/build.make CMakeFiles/test_Database.dir/src/test_Database.cpp.s
-.PHONY : src/test_Database.cpp.s
+src/test_Storage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Storage.dir/build.make CMakeFiles/test_Storage.dir/src/test_Storage.cpp.s
+.PHONY : src/test_Storage.cpp.s
 
 src/version/test_Version.o: src/version/test_Version.cpp.o
 .PHONY : src/version/test_Version.o
@@ -471,12 +444,9 @@ help:
 	@echo "... test"
 	@echo "... doc_doxygen"
 	@echo "... join_server"
-	@echo "... test_Database"
+	@echo "... test_Storage"
 	@echo "... test_Version"
 	@echo "... version_lib"
-	@echo "... src/database.o"
-	@echo "... src/database.i"
-	@echo "... src/database.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -486,12 +456,12 @@ help:
 	@echo "... src/session.o"
 	@echo "... src/session.i"
 	@echo "... src/session.s"
-	@echo "... src/sqlite/sqlite3.o"
-	@echo "... src/sqlite/sqlite3.i"
-	@echo "... src/sqlite/sqlite3.s"
-	@echo "... src/test_Database.o"
-	@echo "... src/test_Database.i"
-	@echo "... src/test_Database.s"
+	@echo "... src/storage.o"
+	@echo "... src/storage.i"
+	@echo "... src/storage.s"
+	@echo "... src/test_Storage.o"
+	@echo "... src/test_Storage.i"
+	@echo "... src/test_Storage.s"
 	@echo "... src/version/test_Version.o"
 	@echo "... src/version/test_Version.i"
 	@echo "... src/version/test_Version.s"

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">join_server
-   &#160;<span id="projectnumber">0.0.1</span>
+   &#160;<span id="projectnumber">0.0.2</span>
    </div>
    <div id="projectbrief">Асинхронный сервер, выполняющий операции пересечения и симметрической разницы над множествами</div>
   </td>
@@ -96,8 +96,8 @@ Collaboration diagram for Session:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3d866c38fb55856e5e4aa09704e9d535"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSession.html#a3d866c38fb55856e5e4aa09704e9d535">Session</a> (tcp::socket socket, std::shared_ptr&lt; <a class="el" href="classDataBase.html">DataBase</a> &gt; db)</td></tr>
-<tr class="separator:a3d866c38fb55856e5e4aa09704e9d535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24755a4dc5bb443271d62b8695472cb0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSession.html#a24755a4dc5bb443271d62b8695472cb0">Session</a> (tcp::socket socket, const std::shared_ptr&lt; <a class="el" href="classStorage.html">Storage</a> &gt; &amp;stor)</td></tr>
+<tr class="separator:a24755a4dc5bb443271d62b8695472cb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47baf956cead0046fcbac45c572c70d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSession.html#a47baf956cead0046fcbac45c572c70d3">start</a> ()</td></tr>
 <tr class="separator:a47baf956cead0046fcbac45c572c70d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -124,8 +124,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ab18d5bb8dd24f1c3031a1c77049055a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a720230f9f92e8e4483c2a3745ff2c4e3"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSession.html#a720230f9f92e8e4483c2a3745ff2c4e3">_data</a> [<a class="el" href="classSession.html#a9251d35017dc98d7e0531db8ce4eadfbae185fe705ffb3921f7601c9bdb233cda">_maxLenght</a>]</td></tr>
 <tr class="separator:a720230f9f92e8e4483c2a3745ff2c4e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a176fc3c9c3f4dfb4a2054012d69d345b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classDataBase.html">DataBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSession.html#a176fc3c9c3f4dfb4a2054012d69d345b">_db</a></td></tr>
-<tr class="separator:a176fc3c9c3f4dfb4a2054012d69d345b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a956c876df55cbfdf7a1754cf2bf16060"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classStorage.html">Storage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSession.html#a956c876df55cbfdf7a1754cf2bf16060">_storage</a></td></tr>
+<tr class="separator:a956c876df55cbfdf7a1754cf2bf16060"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a9251d35017dc98d7e0531db8ce4eadfb"></a>
@@ -154,8 +154,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3d866c38fb55856e5e4aa09704e9d535"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d866c38fb55856e5e4aa09704e9d535">&#9670;&nbsp;</a></span>Session()</h2>
+<a id="a24755a4dc5bb443271d62b8695472cb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24755a4dc5bb443271d62b8695472cb0">&#9670;&nbsp;</a></span>Session()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -169,8 +169,8 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classDataBase.html">DataBase</a> &gt;&#160;</td>
-          <td class="paramname"><em>db</em>&#160;</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classStorage.html">Storage</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>stor</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -336,28 +336,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a176fc3c9c3f4dfb4a2054012d69d345b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a176fc3c9c3f4dfb4a2054012d69d345b">&#9670;&nbsp;</a></span>_db</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="classDataBase.html">DataBase</a>&gt; Session::_db</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ab18d5bb8dd24f1c3031a1c77049055a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab18d5bb8dd24f1c3031a1c77049055a3">&#9670;&nbsp;</a></span>_socket</h2>
 
@@ -369,6 +347,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">tcp::socket Session::_socket</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a956c876df55cbfdf7a1754cf2bf16060"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a956c876df55cbfdf7a1754cf2bf16060">&#9670;&nbsp;</a></span>_storage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classStorage.html">Storage</a>&gt; Session::_storage</td>
         </tr>
       </table>
   </td>

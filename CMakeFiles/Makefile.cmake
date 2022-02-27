@@ -144,5 +144,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/join_server.dir/DependInfo.cmake"
   "CMakeFiles/test_Version.dir/DependInfo.cmake"
   "CMakeFiles/version_lib.dir/DependInfo.cmake"
-  "CMakeFiles/test_Database.dir/DependInfo.cmake"
+  "CMakeFiles/test_Storage.dir/DependInfo.cmake"
   )
